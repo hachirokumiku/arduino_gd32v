@@ -17,7 +17,7 @@ void setup()
   pinMode(LED_GREEN, OUTPUT);
   pinMode(LED_BLUE, OUTPUT);
 }
-
+//Set 100ms vs 1000ms for "Party Mode"
 void loop()
 {
   digitalWrite(LED_BUILTIN, LOW);
